@@ -31,8 +31,11 @@ article {
 .dani {
     color: #4d4ba0;
     background: #EEE;
+    margin: 10px;
 }
-
+.margin {
+    margin: 10px;
+}
 aside {
     padding: 5px;
     color: #4d4ba0;
