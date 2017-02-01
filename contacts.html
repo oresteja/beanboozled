@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Project</title>
@@ -8,31 +9,67 @@
     <link rel="stylesheet" href="css/index-layout.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-	<header>
-		<h1></h1>
-	</header>
-	
-   <nav>
-   <ul>
-	<li><a href="index.html"><p>Головна</p></a></li>
-	<li><a href="ciny.html"><p>Ціни</p></a></li>
-	<li><a href="contacts.html"><p>Контакти</p></a></li>
-	<li><a href="#korzyna"><p>Корзина</p></a></li>
-	</ul>
-	</nav>
-		</header>
+    <header>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <p>Головна</p>
+                </a>
+            </li>
+            <li>
+                <a href="ciny.html">
+                    <p>Ціни</p>
+                </a>
+            </li>
+            <li>
+                <a href="contacts.html">
+                    <p>Контакти</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
     <article class="article">
-            <h2>Контакти</h2>
+        <h2>Контакти:</h2>
+    <br>
+
     </article>
-           <span><p>Місто Львів<br> Номер телефону: +38098-798-58-58</p></span>
+    <p class="dani">Місто Львів<br> Номер телефону: +38098-798-58-58</p>
+    <br>
+    <p class="dani">Якщо у вас виникли запитання, <br>напишіть ваші дані<br> 
+    і ми звяжемося з вами:</p>
+    <form>
+        <label>Ваше ім'я: 
+            <input type="text" id="client-name" required>
+        </label>
+        <br>
+        <label>Ваш телефон:
+             <input type="tel" id="client-phone" required>  
+        </label>
+        <br>
+        <label>Ваш e-mail:
+            <input type="email" id="client-email">
+        </label>
+        <br>
+        <input type="submit" id="btn-submit">
+    </form>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/form.js"></script>
     <div class="place">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.4781133467964!2d24.049165315707793!3d49.79587847939044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae872e07b49e5%3A0x887aa2cda69102fc!2z0L_RgNC-0YHQv9C10LrRgiDQp9C10YDQstC-0L3QvtGXINCa0LDQu9C40L3QuCwgNTAsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1481306934724" 
-	align="center" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
-	</div>
-	
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.4781133467964!2d24.049165315707793!3d49.79587847939044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae872e07b49e5%3A0x887aa2cda69102fc!2z0L_RgNC-0YHQv9C10LrRgiDQp9C10YDQstC-0L3QvtGXINCa0LDQu9C40L3QuCwgNTAsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1481306934724"
+            align="center" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+    </div>
     <footer>
-    <p><center>© Сайт створений у 2017 році</center></p>
-</footer>
+        <p>
+            <center>© Сайт створений у 2017 році</center>
+        </p>
+    </footer>
 </body>
+
 </html>
