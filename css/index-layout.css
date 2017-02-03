@@ -10,7 +10,7 @@ main aside {
     min-width: 30%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     header {
         height: 200px;
     }
